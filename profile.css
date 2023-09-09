@@ -22,7 +22,7 @@
 
 .bg
 {
-    background-image: url("/home/samriddh/fastn/assets/background-1.jpg");
+    background-image: url("background-1.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
