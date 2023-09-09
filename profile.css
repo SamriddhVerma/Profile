@@ -1,0 +1,131 @@
+.name
+{
+    font-family: 'Poppins', 'ExtraLight';
+    font-weight: 300;
+    text-align: center;
+    font-size: 50px;
+    color: red;
+}
+
+.para
+{
+
+    font-family: 'oswald', 'Oswald-ExtraLight';
+    font-style: normal;
+    font-weight: 50;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(174, 174, 202);
+    padding-top: 7px;
+    opacity: .50;
+}
+
+.bg
+{
+    background-image: url("/home/samriddh/fastn/assets/background-1.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+    
+}
+
+.centers
+{   
+    text-align: center;
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 98vh;
+}
+
+.dp
+{
+    width: 120px;
+    height: 120px;
+    border: 5px solid;
+    border-radius: 90px;
+    border-color: rgb(0, 0, 0);
+}
+
+.buttons-insta
+{
+    width: 350px;
+    height: 60px;
+    border: 5px solid;
+    border-radius: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    border-color: #f536b7;
+    background-color: #8f3c75;
+    color: whitesmoke;
+    font-family: 'Quicksand';
+    font-weight: 900;
+    opacity: .88;
+}
+
+.buttons-li
+{
+    width: 350px;
+    height: 60px;
+    border: 5px solid;
+    border-radius: 40px;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    border-color: #0072b1;
+    background-color: #91c7e6;
+    color: whitesmoke;
+    font-family: 'Quicksand';
+    font-weight: 900;
+    opacity: .88;
+}
+
+.buttons-gh
+{
+    width: 350px;
+    height: 60px;
+    border: 5px solid;
+    border-radius: 40px;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    border-color: #171515;
+    background-color: #635f5f;
+    color: whitesmoke;
+    font-family: 'Quicksand';
+    font-weight: 900;
+    opacity: .88;
+}
+
+.buttons-x
+{
+    width: 350px;
+    height: 60px;
+    border: 5px solid;
+    border-radius: 40px;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    border-color: #00acee;
+    background-color: #b5d8e6;
+    color: whitesmoke;
+    font-family: 'Quicksand';
+    font-weight: 900;
+    opacity: .88;
+}
+
+a {
+    text-decoration: none; /* Remove the underline */
+    color: unset; /* Keep the link color */
+  }
