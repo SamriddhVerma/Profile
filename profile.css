@@ -1,7 +1,72 @@
+
+body
+{
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.header
+{
+    display: flex;
+    position: fixed;
+    z-index: 3;
+    height: 90px;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header a
+{
+    margin: 10px;
+}
+
+.content
+{
+    z-index: 0;
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.page
+{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.centar
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+a
+{
+    text-decoration: none;
+    color: white;
+}
+
 .name
 {
     font-family: 'Poppins', 'ExtraLight';
-    font-weight: 300;
+    font-weight: 500;
     text-align: center;
     font-size: 50px;
     color: red;
@@ -20,24 +85,14 @@
     opacity: .50;
 }
 
-.bg
-{
-    background-image: url("bg.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    
-}
 
-.centers
-{   
-    text-align: center;
-    display: flex; 
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    min-height: 98vh;
+.dp-p
+{
+    width: 60px;
+    height: 60px;
+    border: 5px solid;
+    border-radius: 90px;
+    border-color: rgb(0, 0, 0);
 }
 
 .dp
@@ -49,83 +104,81 @@
     border-color: rgb(0, 0, 0);
 }
 
-.buttons-insta
-{
+.buttons-insta,
+.buttons-li,
+.buttons-gh,
+.buttons-x {
     width: 350px;
     height: 60px;
     border: 5px solid;
-    border-radius: 36px;
+    border-radius: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 25px;
+    margin-top: 8px;
+    background-color: brown;
+    opacity: 0.88;
+    font-family: 'Quicksand';
+    font-weight: 900;
+}
+
+.buttons-insta {
     border-color: #f536b7;
     background-color: #8f3c75;
-    color: whitesmoke;
-    font-family: 'Quicksand';
-    font-weight: 900;
-    opacity: .88;
 }
 
-.buttons-li
-{
-    width: 350px;
-    height: 60px;
-    border: 5px solid;
-    border-radius: 40px;
-    background-color: brown;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 8px;
+.buttons-li {
     border-color: #0072b1;
     background-color: #91c7e6;
-    color: whitesmoke;
-    font-family: 'Quicksand';
-    font-weight: 900;
-    opacity: .88;
 }
 
-.buttons-gh
-{
-    width: 350px;
-    height: 60px;
-    border: 5px solid;
-    border-radius: 40px;
-    background-color: brown;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 8px;
+.buttons-gh {
     border-color: #171515;
     background-color: #635f5f;
-    color: whitesmoke;
-    font-family: 'Quicksand';
-    font-weight: 900;
-    opacity: .88;
 }
 
-.buttons-x
-{
-    width: 350px;
-    height: 60px;
-    border: 5px solid;
-    border-radius: 40px;
-    background-color: brown;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 8px;
+.buttons-x {
     border-color: #00acee;
     background-color: #b5d8e6;
-    color: whitesmoke;
-    font-family: 'Quicksand';
-    font-weight: 900;
-    opacity: .88;
-    margin-bottom: 5px;
+    opacity: 0.99;
+    padding-bottom: 5px;
 }
 
-a {
-    text-decoration: none; /* Remove the underline */
-    color: unset; /* Keep the link color */
-  }
+#links
+{
+    flex-direction: column;
+}
+
+.profile
+{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 460px) 
+{
+    .header
+    {
+        justify-content: space-between;
+    }
+}
+
+#badges a
+{
+    display: flex;
+    height: 240px;
+    margin: 20px;
+    width: 150px;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.badge
+{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+}
