@@ -1,0 +1,33 @@
+.slide-in
+{
+    animation: slide-in-left 0.7s ;
+}
+
+.disappear
+{
+    animation: disappear 0.8s;
+}
+
+@keyframes slide-in-left
+{
+    from
+    {
+        translate: 100vw;
+    }
+    to
+    {
+        translate: 0vw;
+    }
+}
+
+@keyframes disappear 
+{
+    from
+    {
+        translate: 0vw;
+    }
+    to
+    {
+        translate: 150vw;
+    }
+}

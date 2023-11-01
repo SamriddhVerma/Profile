@@ -1,4 +1,9 @@
 
+.hide
+{
+    display: none;
+}
+
 body
 {
     padding: 0px;
@@ -6,6 +11,11 @@ body
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
     overflow: hidden;
 }
 
@@ -43,10 +53,6 @@ body
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url("bg.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 
 .centar
@@ -166,6 +172,23 @@ a
     }
 }
 
+.issuer
+{
+
+    font-family: 'Sometype Mono';
+    font-style: italic;
+    font-weight: 200;
+    font-size: 14px;
+    color: #00000098;
+}
+
+#badges
+{
+    
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
 #badges a
 {
     display: flex;
@@ -176,9 +199,64 @@ a
     border-radius: 3px;
 }
 
-.badge
+.badge p
 {
     display: flex;
+    padding: 8px;
+    color: rgba(0, 0, 0, 0.799);
+}
+
+.badge
+{
+    margin: 20px;
+    display: flex;
     flex-wrap: wrap;
-    overflow: auto;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+}
+
+.badge img
+{
+    display: flex;
+    height: 130px;
+    width: 130px;
+    margin-top: 10px;
+    margin: 8px;
+}
+
+.big-data-badge
+{
+    display: flex;
+    height: 270px;
+    width: 150px;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.cloud-badge
+{
+    display: flex;
+    height: 270px;
+    width: 150px;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    background-color: white;
+    border-radius: 3px;
+}
+
+.python-badge
+{
+    display: flex;
+    height: 270px;
+    width: 150px;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px;
+    background-color: white;
+    border-radius: 3px;
 }
