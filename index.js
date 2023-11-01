@@ -1,3 +1,12 @@
+document.addEventListener("DOMContentLoaded", function ()
+{
+    var li=document.getElementById('profile');
+    var bad=document.getElementById('badgez');
+    li.setAttribute("style","");
+    setTimeout(function() {li.classList.add('slide-in');}, 10);
+    setTimeout(function() {li.classList.remove('slide-in');}, 700);
+    bad.setAttribute("style","display:none");
+})
 function badge()
 {
     var li=document.getElementById('profile');
