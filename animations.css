@@ -1,6 +1,10 @@
-.slide-in
+.slide-in-left
 {
     animation: slide-in-left 0.7s ;
+}
+.slide-in-right
+{
+    animation: slide-in-right 0.7s ;
 }
 
 .disappear
@@ -13,6 +17,17 @@
     from
     {
         translate: 100vw;
+    }
+    to
+    {
+        translate: 0vw;
+    }
+}
+@keyframes slide-in-right
+{
+    from
+    {
+        translate: -100vw;
     }
     to
     {
