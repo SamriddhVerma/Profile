@@ -11,7 +11,7 @@ body
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-image: url("bg.jpg");
+    background-image: url("bg.webp");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
