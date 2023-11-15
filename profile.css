@@ -25,13 +25,13 @@ body
     position: fixed;
     z-index: 3;
     height: 90px;
-    width: 99vw;
+    width: 100vw;
     flex-direction: row;
     align-items: center;
     justify-content: flex-end;
 }
 
-.header a
+.header div
 {
     margin: 10px;
 }
@@ -62,9 +62,8 @@ body
     color: white;
 }
 
-a
+.header-ele
 {
-    text-decoration: none;
     color: white;
 }
 
@@ -109,10 +108,7 @@ a
     border-color: rgb(0, 0, 0);
 }
 
-.buttons-insta,
-.buttons-li,
-.buttons-gh,
-.buttons-x {
+.buttons-insta, .buttons-li, .buttons-gh, .buttons-x {
     width: 350px;
     height: 60px;
     border: 5px solid;
@@ -191,38 +187,11 @@ a
     }
 }
 
-.issuer
-{
-
-    font-family: 'Sometype Mono';
-    font-style: italic;
-    font-weight: 200;
-    font-size: 14px;
-    color: #00000098;
-}
-
 #badges
 {
     
     overflow-y: auto;
     overflow-x: hidden;
-}
-
-#badges a
-{
-    display: flex;
-    height: 240px;
-    margin: 20px;
-    width: 150px;
-    background-color: white;
-    border-radius: 3px;
-}
-
-.badge p
-{
-    display: flex;
-    padding: 8px;
-    color: rgba(0, 0, 0, 0.799);
 }
 
 .badge
@@ -235,47 +204,13 @@ a
     justify-content: center;
 }
 
-.badge img
+.badge a
 {
     display: flex;
-    height: 130px;
-    width: 130px;
-    margin-top: 10px;
-    margin: 8px;
-}
-
-.big-data-badge
-{
-    display: flex;
-    height: 270px;
-    width: 150px;
-    align-items: center;
-    flex-direction: column;
+    height: 240px;
     margin: 20px;
+    width: 150px;
     background-color: white;
     border-radius: 3px;
 }
 
-.cloud-badge
-{
-    display: flex;
-    height: 270px;
-    width: 150px;
-    align-items: center;
-    flex-direction: column;
-    margin: 20px;
-    background-color: white;
-    border-radius: 3px;
-}
-
-.python-badge
-{
-    display: flex;
-    height: 270px;
-    width: 150px;
-    align-items: center;
-    flex-direction: column;
-    margin: 20px;
-    background-color: white;
-    border-radius: 3px;
-}
