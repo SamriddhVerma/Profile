@@ -49,8 +49,11 @@ body
     justify-content: flex-end;
 }
 
-.header div
+.header button
 {
+    display: flex;
+    background-color: unset;
+    border: 0px;
     margin: 10px;
 }
 
