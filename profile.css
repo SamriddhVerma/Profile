@@ -1,4 +1,22 @@
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url(/Fonts/Poppins.woff2) format('woff2');
+}
+@font-face {
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    src: url(/Fonts/Oswald.woff2) format('woff2');
+}
 
+@font-face {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    src: url(/Fonts/Quicksand.woff2) format('woff2');
+}
 .hide
 {
     display: none;
@@ -69,8 +87,7 @@ body
 
 .name
 {
-    font-family: 'Poppins', 'ExtraLight';
-    font-weight: 500;
+    font-family: 'Poppins','ExtraLight';
     text-align: center;
     font-size: 50px;
     color: red;
@@ -79,7 +96,7 @@ body
 .para
 {
 
-    font-family: 'oswald', 'Oswald-ExtraLight';
+    font-family: 'Oswald', 'Oswald-ExtraLight';
     font-style: normal;
     font-weight: 50;
     text-align: center;
