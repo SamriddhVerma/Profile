@@ -190,7 +190,7 @@ a
     align-items: center;
     flex-direction: column;
     padding: 10px;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 @media (max-width: 420px) 
