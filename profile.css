@@ -88,11 +88,17 @@ body
     color: white;
 }
 
+@media (max-width:369px) {
+    .name
+    {
+        font-size: 20px;
+    }
+}
 .name
 {
     font-family: 'Poppins','ExtraLight';
     text-align: center;
-    font-size: 50px;
+    font-size: clamp(2.5rem, 1.0774rem + 3.7936vw, 3rem);
     color: red;
 }
 
@@ -112,6 +118,7 @@ body
 
 .dp-p
 {
+    margin: 5px;
     width: 60px;
     height: 60px;
     border: 5px solid;
@@ -128,18 +135,23 @@ body
     border-color: rgb(0, 0, 0);
 }
 
+
+
 .buttons-insta, .buttons-li, .buttons-gh, .buttons-x {
-    width: 350px;
-    height: 60px;
+    width: calc(100% - 50px);
+    max-width: 350px;
+    height: calc(100% - 60px);
+    padding: 2px;
+    max-height: 60px;
     border: 5px solid;
     border-radius: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 8px;
-    background-color: brown;
+    margin: 4px;
     opacity: 0.88;
     font-family: 'Quicksand';
+    color: rgba(255, 255, 255, 0.845);
     font-weight: 900;
 }
 
@@ -161,8 +173,6 @@ body
 .buttons-x {
     border-color: #00acee;
     background-color: #b5d8e6;
-    opacity: 0.99;
-    padding-bottom: 5px;
 }
 
 a
@@ -178,11 +188,12 @@ a
 
 .profile
 {
-    margin-top: 20px;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    height: 700px;
+    padding: 10px;
 }
 
 @media (max-width: 420px) 
