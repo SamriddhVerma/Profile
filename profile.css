@@ -2,20 +2,20 @@
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
-    src: url(/Fonts/Poppins.woff2) format('woff2');
+    src: url(Fonts/Poppins.woff2) format('woff2');
 }
 @font-face {
     font-family: 'Oswald';
     font-style: normal;
     font-weight: 400;
-    src: url(/Fonts/Oswald.woff2) format('woff2');
+    src: url(Fonts/Oswald.woff2) format('woff2');
 }
 
 @font-face {
     font-family: 'Quicksand';
     font-style: normal;
     font-weight: 400;
-    src: url(/Fonts/Quicksand.woff2) format('woff2');
+    src: url(Fonts/Quicksand.woff2) format('woff2');
 }
 .hide
 {
