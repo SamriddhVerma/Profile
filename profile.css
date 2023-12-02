@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: 'Poppins';
     font-style: normal;
@@ -100,6 +101,16 @@ body
     text-align: center;
     font-size: clamp(2.5rem, 1.0774rem + 3.7936vw, 3rem);
     color: red;
+    padding: 2px;
+    -o-transition: all 300ms ease-in-out;
+    -ms-transition: all 300ms ease-in-out;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+}
+
+.name:hover
+{
+    font-size: clamp(2.5rem, 1.0774rem + 3.7936vw, 5rem);
 }
 
 .para
@@ -157,6 +168,10 @@ body
     border-color: #f536b7;
     background-color: #8f3c75;
 }
+.buttons-insta:hover, .buttons-li:hover, .buttons-gh:hover, .buttons-x:hover 
+{
+    background-color: transparent;
+}
 
 .buttons-li {
     border-color: #0072b1;
@@ -171,6 +186,14 @@ body
 .buttons-x {
     border-color: #00acee;
     background-color: #b5d8e6;
+}
+
+.profile a
+{
+    -o-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -webkit-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
 }
 
 a
